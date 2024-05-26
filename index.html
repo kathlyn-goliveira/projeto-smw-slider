@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Mario Cards</title>
+
+    <link rel="shortcut icon" href="src/imagens/logo.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Joti+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/logo.png" alt="Logo do Super Mario" class="logo">
+        <h1 class="titulo">Super Mario Cards</h1>
+    </header>
+
+    <main class="super-mario-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-personagens">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Mario</h2>
+                    <p class="vida">HP 970</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/Mario.png" alt="Mario" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Personagem principal e protagonista da longa e bem-sucedida franquia Mario. Desde Super Mario Bros., suas habilidades de marcas tem sido o seu salto, com a qual a maioria de seus inimigos derrota; e sua capacidade de ganhar poderes com uma infinidade de itens, como o Super Mushroom, Fire Flower e Super Star.</p>
+                </div>
+
+            </li>
+            
+            <li class="cartao fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Luigi</h2>
+                    <p class="vida">HP 690</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/Luigi.png" alt="Luigi" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Irmão de Mario, Luigi é, normalmente, o personagem selecionado pelo “Jogador 2”. Em títulos recentes, o encanador de roupa verde se diferencia por ter o pulo mais alto entre todos os personagens.</p>
+                </div>
+                
+            </li>
+
+            <li class="cartao fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Peach</h2>
+                    <p class="vida">HP 650</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/peach.png" alt="Peach" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Originalmente conhecida como Princesa Toadstool, a realeza do Reino dos Cogumelos recebeu seu atual nome com o passar dos anos. A personagem começou como uma donzela em perigo, mas, hoje, é jogável em diversos títulos da franquia Mario Bros., com seu poder especial de flutuar.</p>
+                </div>
+                
+            </li>
+
+            <li class="cartao fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">Bowser</h2>
+                    <p class="vida">HP 720</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/bowser.png" alt="Bowser" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Bowser é uma espécie de tartaruga dinossauro, sendo o principal vilão dos jogos da franquia Super Mario. Ele tem várias crianças — os Koopalings — que o ajudam em alguns jogos, como Larry, Morton, Roy, Lemmy, Iggy, Wendy e Ludwig. Bowser também tem uma frota de navios piratas voadores, um veículo de palhaço com hélices e uma horda interminável de “Koopa Troopas”, “Goombas” e muito mais.</p>
+                </div>
+                
+            </li>
+
+            <li class="cartao fundo-5">
+                <div class="informacoes">
+                    <h2 class="nome">Yoshi</h2>
+                    <p class="vida">HP 650</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/yoshi.png" alt="Yoshi" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Yoshi existe desde Super Mario World em 1990 e tornou-se conhecido pelos pés ligeiros e pela língua longa e flexível.</p>
+                </div>
+                
+            </li>
+
+            <li class="cartao fundo-6">
+                <div class="informacoes">
+                    <h2 class="nome">Planta piranha</h2>
+                    <p class="vida">HP 320</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/planta-piranha.png" alt="Planta piranha" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Piranha Plant um inimigo parecido com uma armadilha venenosa, quase sempre retratado como um arbusto verde frondoso, coberto com uma cabeça vermelha manchada de branco, cortada por uma boca labial branca com dentes afiados. Normalmente escondem-se dentro de tubos (às vezes os canos que Mario pode entrar), e saem sempre que algo passa por perto. Algumas espécies também podem cuspir bolas de fogo, chamadas armadilhas de fogo de Vênus . Outros vivem inteiramente fora das tubulações, estando ou enraizados no chão ou até mesmo caminhando sobre as pernas como se fossem raízes. Quando Mario está parado em um cano, eles tendem a ficar no cano.</p>
+                </div>
+                
+            </li>
+
+            <li class="cartao fundo-7">
+                <div class="informacoes">
+                    <h2 class="nome">Toad</h2>
+                    <p class="vida">HP 600</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/toad.png" alt="Toad" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Todos os habitantes do Reino dos Cogumelos são conhecidos como Toad. Porém, um Toad se destacou dentre os demais. Essa criaturinha se tornou jogável nos games mais recentes de Mario, podendo utilizar super força para dizimar os inimigos. Os Toads costumam existir em diferentes cores, mas o Toad especial aparece sempre com um colete azul e manchas vermelhas na cabeça de cogumelo.</p>
+                </div>
+                
+            </li>
+
+            <li class="cartao fundo-8">
+                <div class="informacoes">
+                    <h2 class="nome">Kamek</h2>
+                    <p class="vida">HP 720</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/Kamek.png" alt="Kamek" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">O koopa mago é um dos servos mais poderosos de Bowser. Ele era originalmente chamado de "Magikoopa", mas recebeu um nome próprio. Ele pode, por exemplo, fazer uso de feitiços mágicos, teletransportar, duplicar, aumentar os poderes dos aliados e aumentar o tamanho das criaturas.</p>
+                </div>
+                
+            </li>
+
+            <li class="cartao fundo-9">
+                <div class="informacoes">
+                    <h2 class="nome">Quebra-ossos</h2>
+                    <p class="vida">HP 470</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/quebra-ossos.png" alt="Quebra-ossos" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">Também conhecidos como Skeleton Koopa, são versões esqueléticas dos Koopa Troopas. Esses mortos-vivos vão se desmanchar quando atacados, mas reviverão logo, se tornando completamente normais outra vez. O único modo de derrotar um Dry Bones permanentemente é com uma Estrela ou com o Hammer Suit, já que são imunes aos golpes do Mario Guaxinim e a bolas de fogo. O primeiro Dry Bones da história apareceu na fortaleza do Mundo 1.</p>
+                </div>
+                
+            </li>
+
+            <li class="cartao fundo-10">
+                <div class="informacoes">
+                    <h2 class="nome">Boo</h2>
+                    <p class="vida">HP 820</p>
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/Boo.png" alt="Boo" class="imagem-personagem">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="titulo">Descrição</h3>
+                    <p class="texto">A primeira aparição dos fantasmas foi em Super Mario Bros. 3, e eram conhecidos como Boo Diddleys, em referência ao cantor e compositor Bo Diddley. Porém, nos jogos posteriores, passou a ser chamado somente de Boo. O traço mais marcante da personalidade dos fantasmas do reino dos cogumelos é sua timidez. Quando Mario olha no rosto de um Boo, ele fica vermelho e cobre seu rosto.</p>
+                </div>
+                
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
